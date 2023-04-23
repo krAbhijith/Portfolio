@@ -1,0 +1,39 @@
+*{
+    margin: o;
+    padding: 0;
+}
+.nav-bar{
+    float: right;
+}
+.name-bar p span{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+section .row{
+    margin-top: 6rem;
+}
+section .row .desc{
+    margin-left: 8rem;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 16px;
+}
+section .row p span{
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+h3{
+    font-family: 'Work Sans', sans-serif;
+}
+section .row .desc-head{
+    margin-top: 3rem;
+}
+footer table th{
+    padding-left: 1rem;
+}
+footer table th img{
+    height: 30px;
+    width: 30px;
+}

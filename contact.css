@@ -1,0 +1,44 @@
+*{
+    margin: o;
+    padding: 0;
+}
+.nav-bar{
+    float: right;
+}
+.name-bar p span{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.contact{
+    margin-left: 3rem;
+    padding-top: 6rem;
+}
+iframe{
+    overflow: hidden;
+}
+img{
+    margin-top: 8rem;
+    height: 400px;
+    width: 600px;
+}
+footer table th{
+    padding-left: 1rem;
+}
+footer table th img{
+    height: 30px;
+    width: 30px;
+}
+@media (max-width: 576px) {
+    .iframe-class {
+      width: 350px;
+    }
+    .msg-img{
+        width: 350px;
+        height: 200px;
+        margin-top: 0;
+    }
+    
+  }

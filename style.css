@@ -1,0 +1,39 @@
+*{
+    margin: o;
+    padding: 0;
+}
+.nav-bar{
+    float: right;
+}
+.name-bar p span{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#img{
+    width: 400px;
+    height: 400px;
+    margin-top: 1rem;
+}
+section{
+    padding-top: 3rem;
+    
+    font-family: 'Work Sans', sans-serif;
+}
+section p{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 16px;
+    margin-top: 2rem;
+}
+.line{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+footer table th{
+    padding-left: 1rem;
+}
+footer table th img{
+    height: 30px;
+    width: 30px;
+}
