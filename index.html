@@ -32,15 +32,7 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link " href="resume.html">Resume</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                </ul>
+              
               </div>
             </div>
           </nav>
@@ -91,8 +83,11 @@
             </div>
           </div>
         </div>
+        <div>
+          <button class="more p-2" onclick="show('resume.html')">Know more</button>
+        </div>
+        </div>
         <hr class="line">
-      </div>
     </section>
 
     <footer>
@@ -110,7 +105,7 @@
             <h5>Follow</h5>
             <table>
               <th style="padding: 0;"> <a href="https://github.com/krAbhijith" target="_blank"><img src="Assets/mark-github.svg" alt="github"></a> </th>
-              <th> <a href=""><img src="Assets/linkedin_logo.png" alt="linkedin"></a> </th>
+              <th> <a href="https://www.linkedin.com/in/abhijith-k-r-0a181a236/" target="_blank"><img src="Assets/linkedin_logo.png" alt="linkedin"></a> </th>
               <th> <a href="https://twitter.com/Abhijithkr_" target="_blank"><img src="Assets/Twitter_logo.png" alt="Twitter"></a> </th>
               <th> <a href="https://www.facebook.com/profile.php?id=100008037406876" target="_blank"><img src="Assets/facebook_darkLogo.png" alt="facebook"></a> </th>
               <th> <a href="https://www.instagram.com/_the__chromato_grapher_/" target="_blank"><img src="Assets/Instagram_Darklogo.png" alt="instagram" style="margin-bottom: 5px;"></a> </th>
@@ -119,6 +114,11 @@
         </div>
       </div>
     </footer>
+    <script>
+      function show(page){
+        window.location.href = page;
+      }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

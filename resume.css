@@ -5,6 +5,10 @@
 .nav-bar{
     float: right;
 }
+.resume p{
+    font-size: 2em ;
+    font-weight: bolder;
+}
 .name-bar p span{
     text-decoration: none;
     font-size: large;
@@ -17,7 +21,7 @@ section .row{
 section .row .desc{
     margin-left: 8rem;
     font-family: 'Didact Gothic', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
 }
 section .row p span{
     font-size: large;
@@ -36,4 +40,7 @@ footer table th{
 footer table th img{
     height: 30px;
     width: 30px;
+}
+button{
+    float: right;
 }
