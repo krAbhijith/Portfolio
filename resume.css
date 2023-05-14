@@ -5,9 +5,8 @@
 .nav-bar{
     float: right;
 }
-.resume p{
-    font-size: 2em ;
-    font-weight: bolder;
+#btn{
+    margin-top: 8rem;
 }
 .name-bar p span{
     text-decoration: none;
