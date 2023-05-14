@@ -43,3 +43,20 @@ footer table th img{
 button{
     float: right;
 }
+.navbar-nav a{
+    position: relative;
+}
+.navbar-nav a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    background-color: black;
+    bottom: 0px;
+    left: 1;
+    transition: width 0.3s ease-in-out;
+  }
+  
+.navbar-nav a:hover::before {
+    width: 80%;
+  }
