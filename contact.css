@@ -31,6 +31,10 @@ footer table th img{
     height: 30px;
     width: 30px;
 }
+footer table th img:hover{
+    scale: 1.2;
+    transition: all .15s;
+}
 @media (max-width: 576px) {
     .iframe-class {
       width: 350px;

@@ -56,7 +56,10 @@ button{
     left: 1;
     transition: width 0.3s ease-in-out;
   }
-  
+  footer table th img:hover{
+    scale: 1.2;
+    transition: all .15s;
+}
 .navbar-nav a:hover::before {
     width: 80%;
   }
